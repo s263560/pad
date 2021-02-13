@@ -1,4 +1,4 @@
-#Diretório PThreads
+# Diretório PThreads
 
 Este diretório contém os arquivos fontes para a aula sobre PThreads
 
