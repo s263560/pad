@@ -1,6 +1,14 @@
 # Informações sobre os tarefas de programação para a disciplina Processamento de Alto Desempenho 
 Este é o repositório padrão para a disciplina Processamento de Alto Desempenho, oferecida no programa de pós-graduação da [Faculdade de Tecnologia](http://www.ft.unicamp.br) da [UNICAMP](http://www.unicamp.br). Nesse repositório estão as informações gerias sobre os tarefas de programação a serem desenvolvidas na disciplina e alguns códigos fonte básicos que os estudantes podem usar nessas tarefas, se desejarem.
 
+## Estrutura do repositório
+O repositório está dividido em quatro diretórios principais:
+- :file_folder: OpenMP: diretório com exemplos sobre PThreads.
+- :file_folder: OpenMP: diretório com exemplos sobre OpenMP.
+- :file_folder: OpenACC: diretório com exemplos sobre OpenACC.
+- :file_folder: MPI: diretório com exemplos sobre MPI.
+
+
 ## Informações gerais sobre os tarefas de programação
 Os estudantes matriculados na disciplina Processamento de Alto Desempenho deverão realizar, **individualmente**, três tarefas de programação. As tarefas estão descritas em arquivos específicos.
 
@@ -48,6 +56,8 @@ double tempoProc = (double)(fim - inicio) / CLOCKS_PER_SEC;
 
 A falta de qualquer um dos itens acarretará em nota zero nesse componente de avaliação.
 
-#### Funções auxiliares
+### Funções auxiliares
 No diretório `generateRandomMatrix` está o código fonte do programa que gera matrizes de números aleatórios. Os alunos podem melhorar ou adaptar o código disponível.
 
+## Informações complementares
+No _site_/repositório [Aloca Matrizes](https://gradvohl.github.io/alocaMatrizes) (https://gradvohl.github.io/alocaMatrizes), há uma discussão a respeito da alocação de matrizes na memória (como um vetor). :point_right: Recomenda-se a leitura! :point_left:
