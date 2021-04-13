@@ -3,7 +3,7 @@ Este é o repositório padrão para a disciplina Processamento de Alto Desempenh
 
 ## Estrutura do repositório
 O repositório está dividido em quatro diretórios principais:
-- :file_folder: OpenMP: diretório com exemplos sobre PThreads.
+- :file_folder: PThreads: diretório com exemplos sobre PThreads.
 - :file_folder: OpenMP: diretório com exemplos sobre OpenMP.
 - :file_folder: OpenACC: diretório com exemplos sobre OpenACC.
 - :file_folder: MPI: diretório com exemplos sobre MPI.
