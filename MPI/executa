@@ -1,0 +1,4 @@
+#/bin/sh
+scp $1 workernode1:${PWD}/$1
+scp $1 workernode2:${PWD}/$1
+mpirun -n $2 -hostfile ./hosts ./$1
